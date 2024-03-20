@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <title>Spielwelt</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/food.gif" type="image/gif" >
 </head>
 <body>
     <div id="game-container">
         <table id="world-map"></table>
     </div>
-    <script src="generate_world.js"></script> <!-- Stelle sicher, dass der Pfad korrekt ist -->
-    <script src="fetch_world.js"></script> <!-- Stelle sicher, dass der Pfad korrekt ist -->
+    <div id="reload" onclick="window.location.reload()">
+        <div id="banana">
+            <div id="banana-tooltip">
+                Neu laden
+            </div>
+        </div>
+    </div>
+    <script src="generate_world.js"></script>
+    <script src="fetch_world.js"></script>
+    <script src="delme.js"></script>
 </body>
 </html>

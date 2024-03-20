@@ -10,7 +10,7 @@ function updateWorldMap(map) {
           mapCell.style.backgroundSize = 'cover';
           mapCell.style.backgroundImage = `url('images/${cellColor ? `${cellType}_${cellColor}` : cellType}.png'), url('images/empty.png')`;
           if (cellType === 'water') {
-            mapCell.style.backgroundImage = `url('images/water.gif')`;
+            mapCell.style.backgroundImage = ``;
           }
           mapRow.appendChild(mapCell);
       }

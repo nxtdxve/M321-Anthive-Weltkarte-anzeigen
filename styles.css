@@ -1,3 +1,8 @@
+body {
+  background: url('images/water.gif') 0 0 / 40px 40px repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 #world-map {
   border-collapse: collapse;
   margin: auto;
@@ -9,11 +14,78 @@
   text-align: center;
   vertical-align: middle;
 }
-/* 
-body {
-  background-image: url('images/water.gif');
+
+#banana {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#reload {
+  position: absolute;
+  right: 3em;
+  top: 3em;
+  display: flex;
+  flex-direction: column;
+}
+
+#banana {
+  background-image: url('images/food.gif');
   background-size: cover;
-} */
+}
+
+/* Tooltip container */
+#banana {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+#banana #banana-tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+#banana #banana-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+#banana:hover #banana-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+#banana:hover {
+  cursor: pointer;
+}
+  
+
 
 /* 
 .water {
