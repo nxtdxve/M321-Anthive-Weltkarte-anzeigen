@@ -1,0 +1,129 @@
+#world-map {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+#world-map td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+/* 
+body {
+  background-image: url('images/water.gif');
+  background-size: cover;
+} */
+
+/* 
+.water {
+  background-image: url('images/water.png');
+  background-size: cover;
+}
+
+.food {
+  background-image: url('images/food.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.empty {
+  background-image: url('images/empty.png');
+  background-size: cover;
+}
+
+.ant.red {
+  background-image: url('images/ant_red.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.ant.blue {
+  background-image: url('images/ant_blue.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+deprecated
+.ant.green { 
+  background-image: url('images/ant_green.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+deprecated
+.ant.black {
+  background-image: url('images/ant_black.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.ant.grey {
+  background-image: url('images/ant_grey.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.ant.cyan {
+  background-image: url('images/ant_cyan.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.ant.purple {
+  background-image: url('images/ant_purple.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.ant.gold {
+  background-image: url('images/ant_gold.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.ant.brown {
+  background-image: url('images/ant_brown.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.hill.red {
+  background-image: url('images/hill_red.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.hill.red {
+  background-image: url('images/hill_red.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.hill.blue {
+  background-image: url('images/hill_blue.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.hill.green {
+  background-image: url('images/hill_green.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.hill.black {
+  background-image: url('images/hill_black.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.hill.grey {
+  background-image: url('images/hill_grey.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.hill.cyan {
+  background-image: url('images/hill_cyan.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.hill.purple {
+  background-image: url('images/hill_purple.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.hill.gold {
+  background-image: url('images/hill_gold.png'), url('images/empty.png');
+  background-size: cover;
+}
+
+.hill.brown {
+  background-image: url('images/hill_brown.png'), url('images/empty.png');
+  background-size: cover;
+} */
